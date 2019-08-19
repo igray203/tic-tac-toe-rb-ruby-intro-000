@@ -131,9 +131,15 @@ def play(array)
     turn(array)
   end
   if won?(array).is_a?(Array) == true
+<<<<<<< HEAD
     player = array[won?(array)[0]]
     puts "Congratulations #{player}!"
   elsif draw?(array) == true
     puts "Cat's Game!"
+=======
+    puts "Congratulations X!"
+  elsif draw?(array) == true
+    puts "Your game is a draw."
+>>>>>>> 6c057905527ac5a6a98530540684692cb5e6d929
   end
 end
